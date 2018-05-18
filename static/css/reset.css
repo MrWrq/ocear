@@ -79,6 +79,19 @@ input,img {
 .info_r_mid .el-table td, .el-table th {
   padding: 2px 0;
 }
+.inspection .has-gutter tr th {
+  text-align: center;
+  color: #fff;
+  background-color: #2a3cba;
+}
+.inspection .el-table__body-wrapper, .el-table__footer-wrapper, .el-table__header-wrapper {
+  width: 101%;
+}
+.inspection .el-table__row td:nth-child(2) div {
+  border-radius: 5px;
+  color: #fff;
+  background-color: #2a3cba;
+}
 .char_r {
   width: 80%
 }
